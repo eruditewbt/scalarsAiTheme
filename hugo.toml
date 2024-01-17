@@ -1,0 +1,32 @@
+baseURL = 'https://127.0.0.1:1313/'
+title = 'ScalarsAi'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Product"
+url = "/product/"
+weight = 2
+
+[[menu.main]]
+name = "Industry Solutions"
+url = "/industrysolutions/"
+weight = 3
+
+[[menu.main]]
+name = "Services"
+url = "/services/"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 5
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
